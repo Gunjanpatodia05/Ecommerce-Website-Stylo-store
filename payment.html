@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Payment Page</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Payment Page</h1>
+  <form method="post" action="process_payment.php">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required>
+    
+    <label for="card_number">Card Number:</label>
+    <input type="text" id="card_number" name="card_number" required>
+    
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" name="amount" required>
+    
+    <label for="payment_date">Payment Date:</label>
+    <input type="date" id="payment_date" name="payment_date" required>
+    
+    <input type="submit" value="Submit Payment">
+  </form>
+</body>
+</html>
